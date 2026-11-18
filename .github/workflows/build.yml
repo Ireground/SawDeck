@@ -21,9 +21,3 @@ jobs:
         with:
           name: SawDeck-VST3-Windows
           path: build/SawDeck_artefacts/Release/VST3/SawDeck.vst3
-
-      - name: Upload Standalone
-        uses: actions/upload-artifact@v4
-        with:
-          name: SawDeck-Standalone-Windows
-          path: build/SawDeck_artefacts/Release/Standalone/SawDeck.exe

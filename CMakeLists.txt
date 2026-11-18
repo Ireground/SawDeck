@@ -25,7 +25,7 @@ juce_add_plugin(SawDeck
     PLUGIN_MANUFACTURER_CODE Irgd
     PLUGIN_CODE Swdk
     VST3_CATEGORIES Instrument Synth
-    FORMATS VST3 Standalone)
+    FORMATS VST3)
 
 target_sources(SawDeck PRIVATE
     Source/PluginProcessor.cpp

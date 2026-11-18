@@ -1,6 +1,6 @@
 # SawDeck
 
-A simple go-to supersaw synth (VST3 + standalone), built on the Roland JP-8000 supersaw algorithm.
+A simple go-to supersaw synth (VST3), built on the Roland JP-8000 supersaw algorithm.
 
 ## How to get the VST3
 
@@ -9,8 +9,6 @@ A simple go-to supersaw synth (VST3 + standalone), built on the Roland JP-8000 s
 3. Open the repo's **Actions** tab. The "Build SawDeck" run starts automatically and takes about 10 minutes.
 4. When it's green, open the run and download **SawDeck-VST3-Windows**.
 5. Unzip it and copy `SawDeck.vst3` into `C:\Program Files\Common Files\VST3`, then rescan plugins in REAPER.
-
-There's also **SawDeck-Standalone-Windows**: a standalone `SawDeck.exe` you can play without a DAW.
 
 ## Controls
 
